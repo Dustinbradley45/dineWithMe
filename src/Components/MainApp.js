@@ -46,6 +46,7 @@ class MainApp extends Component {
         const { height } = this.state;
         return (
             <React.Fragment>
+        
 
                 <header className="mainAppHeader">
                     <AnimateHeight
@@ -70,6 +71,7 @@ class MainApp extends Component {
 
                     </AnimateHeight>
                 </header>
+
 
                 <main className="mainAppMain">
                     <Main

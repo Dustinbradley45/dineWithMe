@@ -37,10 +37,7 @@ const ItemCard = (props) => {
                 </div>
 
 
-                <div className="logoContainer">
-                    <a href={props.itemInfo.url} target="_blank" rel="noopener noreferrer"><img src={logo} alt="Yelp Logo" className="logo" /></a>
-                </div>
-
+               
                 {
                     props.itemInfo.rating === 5 &&
 
@@ -123,7 +120,11 @@ const ItemCard = (props) => {
                     </div>
                     
                 }
-              <button onClick={() => props.pushToFirebase(props.itemInfo)} key={props.itemInfo.id} className='addToListButton'>Add To List</button>  
+                <button onClick={() => props.pushToFirebase(props.itemInfo)} key={props.itemInfo.id} className='addToListButton'>Add To List</button>
+               <div className="logoContainer">
+                    <a href={props.itemInfo.url} target="_blank" rel="noopener noreferrer"><img src={logo} alt="Yelp Logo" className="logo" /></a>
+                </div>
+  
 
             </div>
 
