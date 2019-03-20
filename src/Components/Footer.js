@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
       <footer>
-          <p>we're all weirdoughs 🍩</p>
+          <p>2019 HackerYou - Alanna, Jen, Dustin, Stuart</p>
       </footer>
     );
 }

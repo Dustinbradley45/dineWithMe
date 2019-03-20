@@ -1,5 +1,5 @@
 {
   "projects": {
-    "staging": "gift-decider"
+    "default": "restdecider2"
   }
 }

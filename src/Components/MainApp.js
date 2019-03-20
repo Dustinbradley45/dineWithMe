@@ -27,15 +27,20 @@ class MainApp extends Component {
     }
 
     showFilterOptions = () => {
-        const { height, filterVisibility } = this.state;
+        // e.preventDefault();
+         
+            const { height, filterVisibility } = this.state;
+            
+        
+            this.setState({
 
-        this.setState({
+                height: height === 170 ? 200 : 170,
+                filterVisibility: !filterVisibility
 
-            height: height === 170 ? 200 : 170,
-            filterVisibility:!filterVisibility
-
-        })
-    }
+            })
+            
+        } 
+    
 
     render() {
         const { height } = this.state;

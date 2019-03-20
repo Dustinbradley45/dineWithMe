@@ -8,10 +8,9 @@ const SearchBar = (props) => {
             onSubmit={(event) => props.onSearchSubmit(event)}
             className="searchBarForm"
         >
-            <fieldset>
+        
 
             <section className="searchBarLeft">
-                 <legend>Penne for your thoughts on where to dine?</legend>
                 <div className="keywordSearch">
                     <label htmlFor="mainSearchBar" className="visibilityHidden">Search for local cuisine</label>
                         <input 
@@ -47,8 +46,10 @@ const SearchBar = (props) => {
                     <button type="submit"
                         onClick={props.animateHeaderHeight}>Search
                     </button>
-                    <button 
-                        className="filterButton"
+
+                    
+                    <button type="button"
+                    className="filterButton"
                         onClick={props.showFilterOptions}>
                         {
 
@@ -58,7 +59,7 @@ const SearchBar = (props) => {
                     </button>
                 </div>
 
-            </fieldset>
+
 
         </form>
     )

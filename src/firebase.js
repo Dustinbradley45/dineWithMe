@@ -1,15 +1,15 @@
 import firebase from 'firebase';
 
-// Initialize Firebase
-  let config = {
-      apiKey: "AIzaSyCo9kGxOOAAMYvlaqJm4LdMvy8nSBnJLfg",
-      authDomain: "gift-decider.firebaseapp.com",
-      databaseURL: "https://gift-decider.firebaseio.com",
-      projectId: "gift-decider",
-      storageBucket: "gift-decider.appspot.com",
-      messagingSenderId: "922678920959"
+var config = {
+    apiKey: "AIzaSyClPrfC7PN_rZpzNrU_fhIVYJDx_vjR7HI",
+    authDomain: "restdecider2.firebaseapp.com",
+    databaseURL: "https://restdecider2.firebaseio.com",
+    projectId: "restdecider2",
+    storageBucket: "restdecider2.appspot.com",
+    messagingSenderId: "187666667466"
   };
   firebase.initializeApp(config);
+
 
 
 export default firebase;
